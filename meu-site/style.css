@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+}
+
+article {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 16px;
+    
+}
+img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+#nick {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#nick h2,
+#nick p {
+    margin: 0;
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    padding: 0;
+}
