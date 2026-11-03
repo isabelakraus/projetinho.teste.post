@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    border: 1px solid #180505;
+    margin: 60vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px;
+}
+
+button {
+    color: #f0f0f0;
+    background-color: #180505;
+    border-radius: 5px;
+}
