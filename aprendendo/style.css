@@ -4,6 +4,8 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    background-color: #f0f0f0;
+    border-radius: 10px;
 }
 
 div {
@@ -12,7 +14,7 @@ div {
     gap: 10px;
 }
 body {
-    background-color: #f0f0f0;
+    background-color: #dcdcdc;
     font-family: Arial, sans-serif;
     border: 1px solid #180505;
     margin: 60vh;
@@ -24,4 +26,24 @@ button {
     color: #f0f0f0;
     background-color: #180505;
     border-radius: 5px;
+    height: 30px;
+}
+button:hover {
+    background-color: #3a0b0b;
+    cursor: pointer;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 50vh;
+}
+label:focus {
+    outline: none;
+    border: 2px solid #180505;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
